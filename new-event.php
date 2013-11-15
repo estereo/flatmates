@@ -1,3 +1,4 @@
+<?php $title = "New Event | Flatmates" ?>
 <?php include("header.php") ?>
 <nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
@@ -8,15 +9,15 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="/dashboard.html"><h1>{{ site.name }}</h1></a>
+    <a class="navbar-brand" href="/dashboard.php"><h1>Flatmates</h1></a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-		<li><a href="{{ site.baseurl }}/dashboard.html">Dashboard</a></li>
-		<li><a href="{{ site.baseurl }}/shopping-lists.html"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Lists</a></li>
-		<li  class="active"><a href="{{ site.baseurl }}/event.html"><span class="fui-calendar-solid"></span> Events</a></li>
+		<li><a href="/dashboard.php">Dashboard</a></li>
+		<li><a href="/shopping-lists.php"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Lists</a></li>
+		<li  class="active"><a href="/event.php"><span class="fui-calendar-solid"></span> Events</a></li>
 		<li><a href="#"><span class="glyphicon glyphicon-usd"></span> Bills</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">

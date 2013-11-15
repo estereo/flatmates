@@ -1,3 +1,4 @@
+<?php $title = "Shopping Lists | Flatmates" ?>
 <?php include("header.php") ?>
 <nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
@@ -8,15 +9,15 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="/dashboard.html"><h1>{{ site.name }}</h1></a>
+    <a class="navbar-brand" href="/dashboard.html"><h1>Flatmates</h1></a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-		<li><a href="/dashboard.html">Dashboard</a></li>
-		<li  class="active"><a href="/shopping-lists.html"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Lists</a></li>
-		<li><a href="/event.html"><span class="fui-calendar-solid"></span> Events</a></li>
+		<li><a href="/dashboard.php">Dashboard</a></li>
+		<li  class="active"><a href="/shopping-lists.php"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Lists</a></li>
+		<li><a href="/event.php"><span class="fui-calendar-solid"></span> Events</a></li>
 		<li><a href="#"><span class="glyphicon glyphicon-usd"></span> Bills</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
@@ -31,7 +32,7 @@
 		<h2>Shopping Lists</h2>
 		<li class="shoppingList user">
 			<div class="well well-sm">
-				<h4><a href="/event.html">Gabriele's Bday List</a></h4>
+				<h4><a href="/event.php">Gabriele's Bday List</a></h4>
 				<div class="btn-group btn-group-xs options">
 					<button type="button" class="btn btn-primary remove"><span class="glyphicon glyphicon-remove"></span></button>
 					<button type="button" class="btn btn-primary edit"><span class="glyphicon glyphicon-pencil"></span></button>

@@ -1,8 +1,9 @@
+<?php $title = "Flatmates" ?>
 <?php include("header.php") ?>
 
 <div class="site container">
 	<div class="header">
-		<h1 class="title"><a href="/">{{ site.name }}</a></h1>
+		<h1 class="title"><a href="/">Flatmates</a></h1>
 	</div>
 	<div id="home" class="container">
 		<div class="row sign-in">
