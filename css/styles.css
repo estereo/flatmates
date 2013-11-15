@@ -1,0 +1,153 @@
+body ul li {list-style-type: none;}
+h1.title {font-size: 50px;}
+
+.site {margin-bottom: 50px;}
+.navbar .navbar-brand {line-height: 21.55px;}
+.site .navbar .nav > li > a > [class*="fui-calendar-solid"] {
+font-size: 14px;
+top: 0px;}
+.fund {text-align: center;}
+div.fund button#addMoney {margin-top:20px;}
+div.fund button#saveMoney {margin-top:20px;}
+
+/* SIGN IN */
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox {margin-bottom: 10px;}
+.form-signin .checkbox {font-weight: normal; font-size: 15px; cursor: pointer;}
+.form-signin .checkbox input {display: inline;}
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus {z-index: 2;}
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+	border-top: none;
+}
+.account-wall {
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title {
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help {
+    margin-top: 10px;
+	font-size: 15px;
+}
+
+.sign-in p {text-align:center; margin-top: 10px;}
+.new-account {
+    /*display: block;*/
+    margin-top: 10px;
+	font-size: 15px;
+}
+.guest-account {
+	margin-left: 30px;
+    margin-top: 10px;
+	font-size: 15px;
+}
+/* END SIGN IN */
+
+/* NEWS FEED */
+.newsFeed h2 {font-size: 35px;}
+.newsFeed h3 {font-size: 22px; font-weight: normal;line-height: 29px; margin-bottom: 10px;}
+.newsFeed h4 {font-size: 17px; margin-left: 44px; font-weight: normal; margin-bottom:4px; margin-top:0;}
+.newsFeed p {font-size: 13px; margin-left: 44px; color: #7D8891;}
+.newsFeed .user img {border-radius: 15px; float: left; margin-right: 13px;}
+/* END NEWS FEED */
+/* EVENT */
+.eventData h2 {font-size: 35px;}
+.eventData h2 .edit {font-size: 17px;}
+.eventData h2 .edit:hover {text-decoration: underline;}
+.eventData h3 {font-size: 22px; font-weight: normal;line-height: 29px; margin: 10px 0;}
+.eventData h3 span {font-size: 18px; margin-left: 10px; font-weight: bold;}
+.eventData h4 {font-size: 17px; font-weight: normal; margin-bottom:4px; margin-top:0;}
+.eventData p {font-size: 16px; color: #7D8891;}
+.eventData .well {
+	margin-bottom: 10px; 
+	overflow: hidden; 
+	background-color: #fff; 
+	border: none; 
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding-left: 0
+} 
+.eventData .well h4 {float: left; line-height: 26px;}
+.eventData .well .options {float: right;}
+.eventData .well .options .btn-primary {
+background-color: #fff; border: 1px solid #e7e7e7;
+}
+.eventData .well .options .edit {color:#7D8891;}
+.eventData .well .options .remove {color:#e74c3c;}
+.eventData .well .options .add {color:#1abc9c;}
+.eventData .panel-body {padding: 0 0 15px 0;}
+/* END EVENT */
+
+
+.newEvent form fieldset.left {float: left;}
+.newEvent form fieldset {overflow: hidden; margin-bottom: 25px;}
+.newEvent form input.btn {margin: 20px; clear: both; display: block;}
+.newEvent form label span {color: #1abc9c;}
+
+/* SHOPPING LISTS */
+
+.shoppingList .well {
+	margin-bottom: 10px; 
+	overflow: hidden; 
+} 
+.shoppingList h4 {
+	font-size: 17px;
+	margin-left: 0px;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 0;
+}
+.shoppingList .well h4 {float: left; line-height: 26px;}
+.shoppingList .well .options {float: right;}
+.shoppingList .well .options .btn-primary {
+background-color: #fff; border: 1px solid #e7e7e7;
+}
+.shoppingList .well .options .edit {color:#7D8891;}
+.shoppingList .well .options .remove {color:#e74c3c;}
+.shoppingList .well .options .add {color:#1abc9c;}
+/* END SHOPPING LISTS */
+
+
+.navbar-header .navbar-brand h1 {font-size: 24px; margin: 0;}
+
+footer {
+	padding: 25px 0;
+} 
